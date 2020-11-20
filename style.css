@@ -1,0 +1,27 @@
+html{
+	height: 100%;
+}
+body{
+	background:url(doc.jpg);
+	background-position:center;
+	background-size: cover;
+
+}
+
+.customContent1{
+	text-align: right;
+	color: white;
+	padding-top: 30%;
+}
+hr{
+	width: 15%;
+	margin-left: 85%;
+}
+.right{
+	width: 35%;
+	float: right;
+}
+
+a{
+	color: white;
+}
