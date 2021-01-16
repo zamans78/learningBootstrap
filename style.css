@@ -1,27 +1,18 @@
-html{
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap");
+
+html {
 	height: 100%;
 }
-body{
-	background:url(doc.jpg);
-	background-position:center;
+body {
+	background: url(doc.jpg);
+	background-position: center;
 	background-size: cover;
-
+	font-family: Hind;
 }
-
-.customContent1{
-	text-align: right;
-	color: white;
-	padding-top: 30%;
+#customOne {
+	background: #337ab7;
 }
-hr{
-	width: 15%;
-	margin-left: 85%;
-}
-.right{
-	width: 35%;
-	float: right;
-}
-
-a{
-	color: white;
+hr {
+	background: white;
+	width: 95%;
 }
