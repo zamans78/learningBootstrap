@@ -1,110 +1,144 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+	<head>
+		<!-- Meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+		<!--Font-awesome-->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+			integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+			crossorigin="anonymous"
+		/>
+	
+		<title>COVID-19 Help</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>COVID-19 Help</title>
-</head>
-<body>
+		<!-- Custom CSS fike -->
+		<link rel="stylesheet" type="text/css" href="style.css" />
 
-<nav class="navbar navbar-dark bg-primary">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> DOCTOR</a>
-    </div>
+		<!-- jquery Library -->
+		<script
+			type="text/javascript"
+			src="assets/js/jquery/jquery-3.5.1.min.js"
+		></script>
+	</head>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">About</span></a></li>
-        <li><a href="#">Contact</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+	<body>
+		<header>
+			<nav
+				class="navbar navbar-expand-lg navbar-dark sticky-top"
+				id="customOne"
+			>
+				<div class="container">
+					<a class="navbar-brand" href="#"
+						><i class="far fa-heart"></i> DOCTOR</a
+					>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarNavAltMarkup"
+						aria-controls="navbarNavAltMarkup"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<a class="nav-link active" href="#">Home</a>
+							<a class="nav-link active" href="#">About Us</a>
+							<a class="nav-link active" href="#">Contact</a>
+							<form class="d-flex">
+								<input
+									class="form-control me-2"
+									type="search"
+									placeholder="Search"
+									aria-label="Search"
+								/>
+								<button
+									type="button"
+									class="btn btn-light ml-2 btn-sm rounded-pill"
+								>
+									Find
+								</button>
+							</form>
+						</div>
+						<a class="nav-link active ml-auto text-white my-1" href="#"
+							><i class="fas fa-search"></i> Get Availability</a
+						>
+						<div class="dropdown">
+							<button
+								class="btn btn-secondary dropdown-toggle"
+								type="button"
+								id="dropdownMenu2"
+								data-toggle="dropdown"
+								aria-haspopup="true"
+								aria-expanded="false"
+							>
+								Division
+							</button>
+							<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+								<button class="dropdown-item" type="button">
+									Covid-19 Patient
+								</button>
+								<button class="dropdown-item" type="button">
+									Regular Patient
+								</button>
+								<button class="dropdown-item" type="button">Both</button>
+								<button class="dropdown-item" type="button">Others</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+    </header>
+    
+    <div class="text-white">
+      <div class="row d-flex align-items-end flex-column bd-highlight mb-3" style="height: 700px;">
+        <div class="col">
+  
         </div>
-        <button type="submit" class="btn btn-default">Find</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Get Availablity</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Division<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Covid-19 Patient</a></li>
-            <li><a href="#">Regular Patient</a></li>
-            <li><a href="#">Both</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Others</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+        <div class="col d-flex justify-content-end">
+          <div>
+            <h1 class="display-4 mr-3">We Are Here For You</h1><br>
+            <h4>24-7 Online Medical Assistence <br>By Professional Doctors.</h4>
+			<hr>
+			<div class="input-group pr-3">
+				<span class="input-group-text" id="basic-addon1">@</span>
+				<input type="text" class="form-control" placeholder="Get in touch...." aria-label="Username" aria-describedby="basic-addon1">
+			  </div>
+          </div>
 
+        </div>
+      </div>
 
-
-
-<div class="container">
-	<div class="row">
-		<div class="col-md-12 col-sm-12 col-xs-6">
-			<div class="customContent1">
-				<h1>We Are Here For You</h1>
-				<h3>24-7 Online Medical Assistence <br> By Professional Doctors.</h3>
-				<hr>
-				<div class="input-group right">
-  <span class="input-group-addon" id="sizing-addon2">@</span>
-  <input type="text" class="form-control" placeholder="Get in touch." aria-describedby="sizing-addon2">
-</div>
-
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-</body>
+		<!--Bootstrap JavaScript plugins.-->
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
